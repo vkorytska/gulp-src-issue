@@ -1,5 +1,7 @@
 ## Gulp 5.0 image copy issue demonstration
 
+---
+
 This repository has all files for the demonstration, and the results of the run.
 To run it yourself, please use 'npm run gulp'. It will generate file in the 'dist/images' folder, which is visibly corrupted.
 To run alternative code, which seems to work run 'npm run gulp-quickfix'. It will generate results in 'dist-fixed' folder.
