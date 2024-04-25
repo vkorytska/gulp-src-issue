@@ -7,6 +7,7 @@ To run it yourself, please use 'npm run gulp'. It will generate file in the 'dis
 To run alternative code, which seems to work run 'npm run gulp-quickfix'. It will generate results in 'dist-fixed' folder.
 Results of both runs are preserved, you can see them in the folders listed above.
 The issue was reproduced on OS: Windows 10, NPM 10.5.2. 
+
 ---
 Src options '{ removeBOM: false, buffer: false, encoding: false }' do not work, unlike issue [1933](https://github.com/gulpjs/gulp/issues/1933). 
 
